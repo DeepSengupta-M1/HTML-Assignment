@@ -1,0 +1,190 @@
+body{
+    padding: 2;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    background: url("https://media.istockphoto.com/vectors/abstract-brown-background-geometric-texture-vector-id1227428343?k=20&m=1227428343&s=170667a&w=0&h=K6kCGS5vTa3vnyQXBXLs9RONnAg26oABOBjZYbyOZXg=");
+    background-position: bottom;
+    background-size: 50%;
+    position: relative;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.header2{
+    color: white;
+}
+.sub{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 18px;
+    color: rgb(0, 255, 170);
+}
+.image1{
+    position: absolute;
+    text-align: right;
+    top: 25px;
+    margin-left: 85%;
+}
+.image2{
+    position: absolute;
+    top: 20px;
+    margin-left: 3%;
+}
+.navbar{
+    width: 100%;
+    background-color: red;
+    overflow: auto;
+    border-radius: 8px;
+    font-family: 'poppins', sans-serif;
+}
+.navbar a{
+    float: left;
+    padding: 13px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    width: 11%;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: firebrick;
+    font-family: 'poppins', sans-serif;
+    text-decoration: underline;
+    transition: .5s;
+}
+@media screen and (max-width: 50px){
+.navbar a{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    }
+}
+.column1{
+    float: left;
+    width: 30%;
+    background-color: rgb(215, 215, 215);
+    border-radius: 4px;
+}
+.column1 p{
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 35px;
+}
+.column2{
+    float: left;
+    width: 50%;
+    background-color: white;
+    margin-left: 5px;
+}
+.column2 p{
+    margin-left: 6%;
+    margin-top: 6%;
+    font-size: 35px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.hr1{
+    float: left;
+    width: 30%;
+    background-color: blue;
+    height: 5px;
+}
+.hr1 p{
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 35px;
+}
+.hr2{
+    float: left;
+    width: 70%;
+    background-color: red;
+    height: 5px;
+}
+.hr2 p{
+    margin-left: 12%;
+    margin-top: 6%;
+    font-size: 35px;
+}
+.hrtag:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.Cont1{
+    float: left;
+    width: 30%;
+    height: 680px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 4px;
+    list-style-type: square;
+}
+.Cont1 p{
+    margin-left: 13%;
+    margin-top: 10%;
+}
+.Cont1 li{
+    margin-left: 13%;
+    margin-top: 0%;
+    font-size: 18px;
+}
+.Cont2{
+    float: left;
+    width: 65%;
+    background-color: white;
+    margin-left: 15px;
+}
+.Cont2 p{
+    margin-left: 8%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+.Cont:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.login{
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 25px;
+    width: 66%;
+    transition: .5s;
+    text-align: center;
+    float: inline-end;
+    position: relative;
+    font-size: 20px;
+}
+.login:hover{
+    text-decoration: underline;
+    background-color: rgb(0, 160, 0);
+    font-family: 'poppins', sans-serif;
+    transition: .5s;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+}
+.foot{
+    padding: 10px;
+    text-align: right;
+    background: url("https://static.vecteezy.com/system/resources/previews/002/737/452/original/abstract-background-modern-hipster-futuristic-graphic-yellow-background-with-stripes-abstract-background-modern-concept-bright-poster-banner-yellow-texture-background-illustration-free-vector.jpg");
+    background-size: 100%;
+    border-radius: 5px;
+    bottom: 0%;
+    width: 98.5%;
+}
+.foot1{
+    font-size: 18px;
+    margin-right: 15px;
+    color: black;
+}
