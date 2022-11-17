@@ -1,0 +1,29 @@
+/*************** Header of the Webpage ***************/
+body{
+	padding: 2;
+}
+.header{
+	padding: 20px;
+	text-align: center;
+	background: url("https://c4.wallpaperflare.com/wallpaper/72/280/47/brown-grey-stone-texture-wallpaper-preview.jpg");
+	background-size: 100%;
+	border-radius: 8px;
+	font-size: 20px;
+	position: sticky;
+	top: 0;
+	font-size: 20px;
+	cursor: pointer;
+}
+.image1{
+	position: absolute;
+	text-align: right;
+	top: 16pt;
+	margin-left: 85%;
+}
+.image2{
+	position: absolute;
+	top: 20pt;
+	margin-left: 3%;
+}
+
+/*************** Body1 of the Webpage ***************/
