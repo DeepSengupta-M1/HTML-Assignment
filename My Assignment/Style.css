@@ -1,0 +1,36 @@
+/*************** Header of the Webpage ***************/
+.head{
+	background: url("https://img.freepik.com/free-vector/yellow-parchment_53876-91513.jpg?w=2000");
+	background-size: 100%;
+}
+.image1{
+	text-align: left;
+	width: 30%;
+}
+.cont{
+	font-size: 35px;
+}
+.image2{
+	text-align: right;
+	width: 30%;
+}
+
+/*************** Body1 of the Webpage ***************/
+.body{
+	background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000");
+	background-size: 100%;
+}
+.body1{
+	font-size: 30px;
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/423/634/small/grey-gradient-abstract-backgrounds-free-vector.jpg");
+	background-size: 100%;
+    width: 100%;
+}
+.body2{
+	font-size: 20px;
+}
+.marquee{
+    background-image: url("");
+    background-size: 100%;
+    text-align: center;
+}

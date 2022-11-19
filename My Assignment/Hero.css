@@ -1,0 +1,62 @@
+/*************** Header of the Webpage ***************/
+.head{
+	background: url("https://img.freepik.com/free-vector/yellow-parchment_53876-91513.jpg?w=2000");
+	background-size: 100%;
+}
+.image1{
+	text-align: left;
+	width: 30%;
+}
+.cont{
+	font-size: 35px;
+}
+.image2{
+	text-align: right;
+	width: 30%;
+}
+
+/*************** Body1 of the Webpage ***************/
+.body{
+	background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000");
+	background-size: 100%;
+	width: 85%;
+}
+.body1{
+	font-size: 30px;
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/423/634/small/grey-gradient-abstract-backgrounds-free-vector.jpg");
+	background-size: 100%;
+	padding: 5px;
+}
+.body2{
+	font-size: 20px;
+}
+
+/*************** Body2 of the Webpage ***************/
+.hero{
+	background-image: url("https://cdn.dribbble.com/users/3091124/screenshots/6635560/pastel-watercolor-texture-background_1083-168_1x.jpg");
+	background-size: 100%;
+}
+
+/*************** Footer1 of the Webpage ***************/
+.foot{
+	background-image: url("https://img.freepik.com/premium-photo/purple-blue-watercolor-surface-background_145343-612.jpg");
+	background-size: 100%;
+	width: 50%;
+}
+.cont1{
+	font-size: 24px;
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/423/634/small/grey-gradient-abstract-backgrounds-free-vector.jpg");
+	background-size: 100%;
+	padding: 5px;
+}
+.cont2{
+	font-size: 18px;
+	width: 50%;
+}
+
+/*************** Footer2 of the Webpage ***************/
+.foot2{
+	background-image: url("https://media.istockphoto.com/id/1028690806/vector/vector-hand-drawn-pattern-with-autumn-oak-leaves-and-acorns-brown-contours-on-the-beige.jpg?s=612x612&w=0&k=20&c=8VMb2GwrCJ0A5A98hxMnyE91qiBGTp-iGBTEw_L0DMc=");
+	height: 100%;
+	text-align: center;
+}
