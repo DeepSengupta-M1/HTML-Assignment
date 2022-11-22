@@ -1,0 +1,83 @@
+/*************** Header of the Webpage ***************/
+.head{
+    background: url("https://img.freepik.com/free-vector/yellow-parchment_53876-91513.jpg?w=2000");
+    background-size: 100%;
+}
+.image1{
+    width: 10%;
+}
+.cont{
+    font-size: large;
+    width: 80%;
+}
+.image2{
+    width: 10%;
+}
+
+
+/*************** Body 1 of the Webpage ***************/
+.body{
+    width: 100%;
+}
+.cont1{
+    background: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000");
+    background-size: 100%;
+    font-size: 17px;
+}
+.body h2{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/423/634/small/grey-gradient-abstract-backgrounds-free-vector.jpg");
+    background-size: 100%;
+    text-indent: 6px;
+    font-size: 26px;
+    padding: 4px;
+}
+.marquee{
+    background: url("https://static.vecteezy.com/system/resources/previews/000/360/749/non_2x/wood-texture-vector.jpg");
+    background-size: 100%;
+    width: 15%;
+}
+.marquee marquee{
+    text-align: center;
+    font-size: 22px;
+    color: yellow;
+}
+
+
+/*************** Body 2 of the Webpage ***************/
+.cont2{
+    background: url("https://cdn.dribbble.com/users/3091124/screenshots/6635560/pastel-watercolor-texture-background_1083-168_1x.jpg");
+    background-size: 100%;
+    font-size: 17px;
+}
+.marquee1{
+    background: url("https://static.vecteezy.com/system/resources/previews/000/360/749/non_2x/wood-texture-vector.jpg");
+    background-size: 100%;
+    width: 15%;
+}
+.marquee1 marquee{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+
+/*************** Footer of the Webpage ***************/
+.foot h1
+{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/423/634/small/grey-gradient-abstract-backgrounds-free-vector.jpg");
+    background-size: 100%;
+    text-indent: 8px;
+    font-size: 18pt;
+}
+.foot1
+{
+    background: url("https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMGFuZCUyMHB1cnBsZSUyMGdyYWRpZW50fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: 100%;
+    font-size: 15px;
+}
+.foot2
+{
+    background: url("https://www.janeclayton.co.uk/media/catalog/product/cache/04f3c6c3e6655e7be184d6c72b803cfa/l/e/leaf-erica-wakerly-gold-white-wallpaper-leaf006-image01.jpg");
+    height: 40%;
+    text-align: center;
+}
