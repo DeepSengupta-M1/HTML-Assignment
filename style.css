@@ -1,0 +1,524 @@
+/******************** Main Page ********************/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.hero{
+  background: #1d2026;
+  min-height: 95%;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+nav .menu-img{
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+nav .logo{
+  width: 160px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+button{
+  background: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transform: background 0.5s;
+}
+button span{
+  display: block;
+  background: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+  transform: background 0.5s, margin-left 0.5s;
+}
+.lamp-container{
+  position: absolute;
+  top: 0;
+  left: 22%;
+  width: 200px;
+}
+.lamp{
+  width: 100%;
+}
+.light{
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  margin-left: -10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.text-container{
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+.text-container h1{
+  font-size: 80px;
+  font-weight: 400;
+}
+.text-container a{
+  text-decoration: none;
+  background: #00986f;
+  padding: 14px 40px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.control{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 150px;
+}
+.control .line{
+  width: 250px;
+  height: 4px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 2px;
+}
+.control .line span{
+  width: 50%;
+  height: 8px;
+  margin-top: -2px;
+  border-radius: 4px;
+  background: #00986f;
+  display: block;
+}
+.active{
+  background: green;
+}
+.active span{
+  background: #fff;
+  margin-left: 31px;
+}
+.on{
+  opacity: 1;
+}
+
+
+/******************** Join Us Page ********************/
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#2980b9, #8e44ad);
+  height: 100vh;
+  overflow: hidden;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 20px;
+}
+.center h1{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 0px solid silver;
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2691d9;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+  width: 100%;
+}
+.pass{
+  margin: -5px 0 20px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+.pass:hover{
+  text-decoration: underline;
+}
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: #2691d9;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+input[type="submit"]:hover{
+  border-color: #2691d9;
+  transition: .5s;
+}
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.signup_link a{
+  color: #2691d9;
+  text-decoration: none;
+}
+.signup_link a:hover{
+  text-decoration: underline;
+}
+
+
+/******************** Signup Page ********************/
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.5s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+form .category{
+  display: flex;
+  width: 80%;
+  margin: 14px 0 ;
+  justify-content: space-between;
+}
+form .category label{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.5s ease;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+  background: #9b59b6;
+  border-color: #d9d9d9;
+}
+form input[type="radio"]{
+  display: none;
+}
+form .button{
+  height: 45px;
+  margin: 35px 0
+}
+form .button input{
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background: #2691d9;
+}
+form .button input:hover{
+  background: #2691d9;
+}
+@media(max-width: 584px){
+  .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: 100%;
+}
+form .category{
+  width: 100%;
+}
+.content form .user-details{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.user-details::-webkit-scrollbar{
+  width: 5px;
+  }
+}
+@media(max-width: 459px){
+.container .content .category{
+  flex-direction: column;
+  }
+}
+
+
+/******************** Rate Us ********************/
+.wrapper{
+  background: #f6f6f6;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper .content{
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .outer{
+  height: 135px;
+  width: 135px;
+  overflow: hidden;
+}
+.outer .emojis{
+  height: 500%;
+  display: flex;
+  flex-direction: column;
+}
+.outer .emojis li{
+  height: 20%;
+  width: 100%;
+  list-style: none;
+  transition: all 0.3s ease;
+}
+.outer li img{
+  height: 100%;
+  width: 100%;
+}
+#star-2:checked ~ .content .emojis .slideImg{
+  margin-top: -135px;
+}
+#star-3:checked ~ .content .emojis .slideImg{
+  margin-top: -270px;
+}
+#star-4:checked ~ .content .emojis .slideImg{
+  margin-top: -405px;
+}
+#star-5:checked ~ .content .emojis .slideImg{
+  margin-top: -540px;
+}
+.wrapper .stars{
+  margin-top: 30px;
+}
+.stars label{
+  font-size: 30px;
+  margin: 0 3px;
+  color: #ccc;
+}
+#star-1:hover ~ .content .stars .star-1,
+#star-1:checked ~ .content .stars .star-1,
+#star-2:hover ~ .content .stars .star-1,
+#star-2:hover ~ .content .stars .star-2,
+#star-2:checked ~ .content .stars .star-1,
+#star-2:checked ~ .content .stars .star-2,
+#star-3:hover ~ .content .stars .star-1,
+#star-3:hover ~ .content .stars .star-2,
+#star-3:hover ~ .content .stars .star-3,
+#star-3:checked ~ .content .stars .star-1,
+#star-3:checked ~ .content .stars .star-2,
+#star-3:checked ~ .content .stars .star-3,
+#star-4:hover ~ .content .stars .star-1,
+#star-4:hover ~ .content .stars .star-2,
+#star-4:hover ~ .content .stars .star-3,
+#star-4:hover ~ .content .stars .star-4,
+#star-4:checked ~ .content .stars .star-1,
+#star-4:checked ~ .content .stars .star-2,
+#star-4:checked ~ .content .stars .star-3,
+#star-4:checked ~ .content .stars .star-4,
+#star-5:hover ~ .content .stars .star-1,
+#star-5:hover ~ .content .stars .star-2,
+#star-5:hover ~ .content .stars .star-3,
+#star-5:hover ~ .content .stars .star-4,
+#star-5:hover ~ .content .stars .star-5,
+#star-5:checked ~ .content .stars .star-1,
+#star-5:checked ~ .content .stars .star-2,
+#star-5:checked ~ .content .stars .star-3,
+#star-5:checked ~ .content .stars .star-4,
+#star-5:checked ~ .content .stars .star-5{
+  color: #fd4;
+}
+.wrapper .footer{
+  border-top: 6px solid #ccc;
+  background: #2691d9;
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+  border-radius: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer span{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer .text::before{
+  content: "Rate your experience";
+}
+.footer .numb::before{
+  content: "0 out of 5";
+}
+#star-1:checked ~ .footer .text::before{
+  content: "I just hate it";
+}
+#star-1:checked ~ .footer .numb::before{
+  content: "1 out of 5";
+}
+#star-2:checked ~ .footer .text::before{
+  content: "I don't like it";
+}
+#star-2:checked ~ .footer .numb::before{
+  content: "2 out of 5";
+}
+#star-3:checked ~ .footer .text::before{
+  content: "This is awesome";
+}
+#star-3:checked ~ .footer .numb::before{
+  content: "3 out of 5";
+}
+#star-4:checked ~ .footer .text::before{
+  content: "I just like it";
+}
+#star-4:checked ~ .footer .numb::before{
+  content: "4 out of 5";
+}
+#star-5:checked ~ .footer .text::before{
+  content: "I just love it";
+}
+#star-5:checked ~ .footer .numb::before{
+  content: "5 out of 5";
+}
+input[type="radio"]{
+  display: none;
+}
